@@ -9,7 +9,7 @@ screen = pygame.display.set_mode((ventana_ancho, ventana_altura))
 pygame.display.set_caption("ArgentinaKombat23")
 
 run = True
-while Run:
+while run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
